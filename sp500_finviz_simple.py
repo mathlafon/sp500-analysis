@@ -94,7 +94,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
-PLOTS_DIR = os.path.join(os.path.dirname(__file__), "plots")
+PLOTS_DIR = "plots"
 
 def load_img(filename):
     path = os.path.join(PLOTS_DIR, filename + ".png")
